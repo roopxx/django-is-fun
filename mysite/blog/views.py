@@ -3,13 +3,27 @@ from .models import Post, Comment
 from django.views.generic import ListView
 from .forms import EmailPostForm, CommentForm
 from django.core.mail import send_mail
+from taggit.models import Tag
 
 class PostListView(ListView):
-    queryset = Post.published.all()
+    model = Post
+    template_name = 'blog/post/list.html'
     context_object_name = 'posts'
     paginate_by = 3
-    template_name = 'blog/post/list.html'
 
+    def get_queryset(self):
+        queryset = Post.published.all()
+        tag_slug = self.kwargs.get('tag_slug')
+        if tag_slug:
+            tag = get_object_or_404(Tag, slug=tag_slug)
+            queryset = queryset.filter(tags__in=[tag])
+        return queryset
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['tag'] = self.kwargs.get('tag_slug')
+        return context
+    
 def post_detail(request, year, month, day, post):
     post = get_object_or_404(Post, slug=post,
                                    status='published',
