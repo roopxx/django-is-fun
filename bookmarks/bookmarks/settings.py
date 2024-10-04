@@ -25,19 +25,23 @@ SECRET_KEY = 'django-insecure-4ua07nvr(rw#3oift1f2gdh4t3n^0hy&#&5q%_^d3)c42-i*zj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'account.apps.AccountConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'account.apps.AccountConfig',
+    'social_django',
+    'django_extensions',
+    'images.apps.ImagesConfig',
+    'easy_thumbnails',
 ]
 
 MIDDLEWARE = [
@@ -122,3 +126,26 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_REDIRECT_URL = 'dashboard'
+
+LOGIN_URL = 'login'
+
+LOGOUT_URL = 'logout'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+MEDIA_URL = '/media/'
+
+import os
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'account.authentication.EmailAuthBackend',
+    'social_core.backends.twitter.TwitterOAuth',
+]
+
+SOCIAL_AUTH_TWITTER_KEY = '2hjnXQk33ylVGoqcKNwiL2TVV' # Twitter API Key
+SOCIAL_AUTH_TWITTER_SECRET = '53XpsqAjt3s6AoLdtWTPUMSQBvBZK7JcEAA3Pxh2Dvwd5Fnc2m' # Twitter API Secret
