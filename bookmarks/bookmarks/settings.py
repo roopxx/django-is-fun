@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'images.apps.ImagesConfig',
     'easy_thumbnails',
+    'actions.apps.ActionsConfig',
 ]
 
 MIDDLEWARE = [
@@ -149,3 +150,16 @@ AUTHENTICATION_BACKENDS = [
 
 SOCIAL_AUTH_TWITTER_KEY = '2hjnXQk33ylVGoqcKNwiL2TVV' # Twitter API Key
 SOCIAL_AUTH_TWITTER_SECRET = '53XpsqAjt3s6AoLdtWTPUMSQBvBZK7JcEAA3Pxh2Dvwd5Fnc2m' # Twitter API Secret
+
+from django.urls import reverse_lazy
+
+ABSOLUTE_URL_OVERRIDES = {
+    'auth.user': lambda u: reverse_lazy('user_detail',
+                                        args=[u.username])
+}
+
+REDIS_HOST = 'localhost'
+
+REDIS_PORT = 6379
+
+REDIS_DB = 0
