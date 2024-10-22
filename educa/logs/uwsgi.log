@@ -1,0 +1,165 @@
+*** Starting uWSGI 2.0.27 (64bit) on [Tue Oct 22 09:21:06 2024] ***
+compiled with version: 13.2.0 on 22 October 2024 06:52:46
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-02751GB
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /home/rpsts/repo/django-is-fun/educa
+detected binary path: /home/rpsts/repo/django-is-fun/env/educa/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/rpsts/repo/django-is-fun/educa
+your processes number limit is 15149
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/educa.sock fd 3
+Python version: 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/rpsts/repo/django-is-fun/env/educa
+Set PythonHome to /home/rpsts/repo/django-is-fun/env/educa
+Python main interpreter initialized at 0x7fe88bf70f68
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/rpsts/repo/django-is-fun/educa/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x7fe88bf70f68 pid: 69285 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 69285)
+spawned uWSGI worker 1 (pid: 69305, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.27 (64bit) on [Tue Oct 22 09:25:39 2024] ***
+compiled with version: 13.2.0 on 22 October 2024 06:52:46
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-02751GB
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /home/rpsts/repo/django-is-fun/educa
+detected binary path: /home/rpsts/repo/django-is-fun/env/educa/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/rpsts/repo/django-is-fun/educa
+your processes number limit is 15149
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/educa.sock fd 3
+Python version: 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/rpsts/repo/django-is-fun/env/educa
+Set PythonHome to /home/rpsts/repo/django-is-fun/env/educa
+Python main interpreter initialized at 0x7ff9b2383f68
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/rpsts/repo/django-is-fun/educa/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ff9b2383f68 pid: 69907 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 69907)
+spawned uWSGI worker 1 (pid: 69914, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.27 (64bit) on [Tue Oct 22 09:25:55 2024] ***
+compiled with version: 13.2.0 on 22 October 2024 06:52:46
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-02751GB
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /home/rpsts/repo/django-is-fun/educa
+detected binary path: /home/rpsts/repo/django-is-fun/env/educa/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/rpsts/repo/django-is-fun/educa
+your processes number limit is 15149
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/educa.sock fd 3
+Python version: 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/rpsts/repo/django-is-fun/env/educa
+Set PythonHome to /home/rpsts/repo/django-is-fun/env/educa
+Python main interpreter initialized at 0x7f8b086b1f68
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/rpsts/repo/django-is-fun/educa/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f8b086b1f68 pid: 69984 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 69984)
+spawned uWSGI worker 1 (pid: 69985, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.27 (64bit) on [Tue Oct 22 09:26:58 2024] ***
+compiled with version: 13.2.0 on 22 October 2024 06:52:46
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-02751GB
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /home/rpsts/repo/django-is-fun/educa
+detected binary path: /home/rpsts/repo/django-is-fun/env/educa/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/rpsts/repo/django-is-fun/educa
+your processes number limit is 15149
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/educa.sock fd 3
+Python version: 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/rpsts/repo/django-is-fun/env/educa
+Set PythonHome to /home/rpsts/repo/django-is-fun/env/educa
+Python main interpreter initialized at 0x7f74823bcf68
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/rpsts/repo/django-is-fun/educa/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f74823bcf68 pid: 70161 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 70161)
+spawned uWSGI worker 1 (pid: 70163, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.27 (64bit) on [Tue Oct 22 09:27:44 2024] ***
+compiled with version: 13.2.0 on 22 October 2024 06:52:46
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-02751GB
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /home/rpsts/repo/django-is-fun/educa
+detected binary path: /home/rpsts/repo/django-is-fun/env/educa/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/rpsts/repo/django-is-fun/educa
+your processes number limit is 15149
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/educa.sock fd 3
+Python version: 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/rpsts/repo/django-is-fun/env/educa
+Set PythonHome to /home/rpsts/repo/django-is-fun/env/educa
+Python main interpreter initialized at 0x7f2fe4ce5f68
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/rpsts/repo/django-is-fun/educa/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f2fe4ce5f68 pid: 70425 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 70425)
+spawned uWSGI worker 1 (pid: 70426, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+goodbye to uWSGI.
